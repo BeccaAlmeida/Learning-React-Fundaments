@@ -1,0 +1,5 @@
+.lista {
+    display: flex;
+    align-items: baseline;
+    text-align: initial;
+}

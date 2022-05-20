@@ -1,0 +1,65 @@
+.sorteioComponent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sorteioComponent table {
+  width: 100%;
+}
+
+h2 {
+  margin: 5px;
+}
+
+.sorteioComponent th {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.sorteioComponent tr {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.sorteioComponent tbody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sorteioComponent td {
+  display: flex;
+  width: 15px;
+  align-items: center;
+  justify-content: center;
+  background: #aafac8;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.sorteioComponent .buttonRandom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F96646;
+  border: 1px solid #F96646;
+  margin: 30px;
+  border-radius: 50px;
+}
+
+.sorteioComponent .buttonRandom:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F96646;
+  border: 1px solid #F96646;
+  opacity: 0.2;
+  margin: 30px;
+  border-radius: 50px;
+}

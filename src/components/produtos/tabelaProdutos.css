@@ -1,0 +1,23 @@
+.tabelaProdutos{ height: 100%; }
+.tabelaProdutos table {
+    width: 100%;
+    height: 100%;
+}
+
+.tabelaProdutos th {
+    background-color: #d3a588;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.tabelaProdutos tr {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.tabelaProdutos .par {
+    background-color: #ECE2D0;
+}
+

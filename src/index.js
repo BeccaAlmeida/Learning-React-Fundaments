@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// JSX convert html em javascript podendo usar dentro do javascript o html usando biblioteca React
+
 import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+const tag = <h1>Learning React</h1>
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <div className='indexStyle'>
+        {tag}
+        <App />
+    </div>,
+    document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
